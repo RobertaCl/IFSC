@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Atividade 13 </title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="IMC"> Calcule o seu IMC </h1>
+    </header>
+    <div class="painel">
+        <div class="borda">
+            <p class="pp">
+                Digite seu peso! (kg) <input type="number" id="peso">
+            </p>
+
+            <p class="pp">
+                Digite sua altura! (cm) <input type="number" id="altura">
+            </p>
+
+            <button class = "btn" onclick = "calcular()">
+                Calcular o IMC
+            </button>
+        </div>
+        <div class="centro" id="img" style="background-image: url(img/perfil.jpg);"></div>
+        <div class="borda"></div>
+    </div>
+</body>
+
+</html>

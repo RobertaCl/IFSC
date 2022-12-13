@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: #b469bb;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.borda {
+    height: 100%;
+    background-color: #b469bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin: 5px;
+}
+
+.centro {
+    height: 100%;
+    width: 60vw;
+    background-repeat: no-repeat;
+    background-size: 50% 90%;
+    background-position: center;
+}
+
+.btn {
+    display: flex;
+    margin-left: -20px;
+    justify-items: center;
+    background-color: #85398b;
+    border-color: #85398b;
+    color: white;
+    height: 25px;
+}
+
+.pp {
+    display: block;
+    margin-left: 10px;
+    color: white;
+}
