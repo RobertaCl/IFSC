@@ -1,0 +1,11 @@
+create database db_venda;
+
+use db_venda;
+
+create table venda(
+	DataVenda date,
+	NomeProduto varchar(20),
+	QuantidadeVendida int,
+	PrecoUnitario double,
+	ValorTotal double
+)
